@@ -2,7 +2,7 @@ const cloudinary = require('../config/cloudinary');
 const fs = require('fs');
 
 exports.uploadDocument = async (req, res) => {
-    console.log("req recieved",req);
+    // console.log("req recieved",req);
   try {
     const file = req.file;
 
